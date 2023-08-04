@@ -1,0 +1,143 @@
+{
+  "employees": [
+    {
+      "firstName": "Gabby",
+      "lastName": "Ngene",
+      "phoneNumber": 72432222,
+      "email": "gabby@gmail.com",
+      "password": "w",
+      "confirmPassword": "s",
+      "id": 1
+    },
+    {
+      "firstName": "John",
+      "lastName": "Malek",
+      "phoneNumber": 72432222,
+      "email": "malek@gmail.com",
+      "password": "w",
+      "confirmPassword": "s",
+      "id": 2
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Mutie",
+      "phoneNumber": "1222222",
+      "email": "brian@gmail.com",
+      "password": "b",
+      "confirmPassword": "b",
+      "id": 3
+    },
+    {
+      "firstName": "Joseph",
+      "lastName": "Maina",
+      "phoneNumber": "0712121212",
+      "email": "maina@gmail.com",
+      "password": "b",
+      "confirmPassword": "b",
+      "id": 4
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Nyabuto",
+      "phoneNumber": "0712341234",
+      "email": "richard@gmail.com",
+      "password": "aa",
+      "confirmPassword": "aa",
+      "id": 5
+    }
+  ],
+  "bookings": [
+    {
+      "customerName": "Anne",
+      "timeSlot": "10:30-12:30",
+      "amountPaid": 200,
+      "spotName": "B11",
+      "parkingLot": "YC",
+      "id": 1
+    },
+    {
+      "customerName": "John",
+      "timeSlot": "9:30-12:30",
+      "amountPaid": 300,
+      "spotName": "A11",
+      "parkingLot": "YMCA",
+      "id": 2
+    }
+  ],
+  "malls": [
+    {
+      "spaceName": "YMCA",
+      "location": "Nairobi",
+      "amount": 100,
+      "description": "descriptionn",
+      "securityFeatures": "security",
+      "aboutFeatures": "about",
+      "availableSlots": "120",
+      "id": 1
+    },
+    {
+      "spaceName": "YMCA",
+      "location": "Nairobi",
+      "amount": 100,
+      "description": "descriptionn",
+      "securityFeatures": "security",
+      "aboutFeatures": "about",
+      "availableSlots": "120",
+      "id": 2
+    },
+    {
+      "spaceName": "YWCA",
+      "spaceImage": "w",
+      "location": "Nairobi",
+      "description": "descriptionn",
+      "securityFeatures": "security",
+      "availableSlots": "120",
+      "amount": 100,
+      "id": 3
+    }
+  ],
+  "user": [
+    {
+      "id": "Gabby",
+      "username": "Gabriella Ngene",
+      "password": "gabby",
+      "email": "gabby@gmail.com",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "Aaaaa",
+      "username": "Aaaaa",
+      "password": "aa",
+      "email": "aa@gmail.com",
+      "role": "admin",
+      "isactive": true
+    }
+  ],
+  "slots": [
+    {
+      "spotName": "A11",
+      "isAvailable": true,
+      "parkingLot": "YMC",
+      "id": 1
+    },
+    {
+      "spotName": "A12",
+      "isAvailable": true,
+      "parkingLot": "YWCA",
+      "id": 2
+    },
+    {
+      "spotName": "AP1",
+      "isAvailable": true,
+      "parkingLot": "YMCA",
+      "id": 3
+    },
+    {
+      "spotName": "B11",
+      "isAvailable": false,
+      "parkingLot": "YC",
+      "id": 4
+    }
+  ]
+}
